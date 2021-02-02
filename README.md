@@ -17,15 +17,17 @@ The bot has 3 commands. All of these commands must be run by someone with the "M
 
 # How to run
 After cloning the repository and downloading [discord.py](https://discordpy.readthedocs.io/en/latest/intro.html#installing), rename `config_public.py` to `config.py` and add your private Discord bot token, 
-the bot's user id, and a channel id for logging. After that, run `python3 ./Counting Bot.py`.
+the bot's user id, and a channel id for logging. After that, run `python3 Counting Bot.py`.
 
-You may need to run it as `python3 ./Counting\ Bot.py`,
+You may need to run it as `python3 Counting\ Bot.py`,
 
 # Bugs
 If you notice any bugs, please make a ticket under the Issues tab. Or if you're super great, write your own fix and make a pull request. Please note that this bot was initially writen -- from start to finish -- in roughly 4 hours.
 
 # Sources
-I have used run-time error parsing from ktraw2's [TVBot](https://github.com/ktraw2/TVBot). I also used [discord.py's documentation](https://discordpy.readthedocs.io/en/latest/) to write this bot. Thank you!
+I used to use run-time command and error parsing from ktraw2's [TVBot](https://github.com/ktraw2/TVBot). I also used [discord.py's documentation](https://discordpy.readthedocs.io/en/latest/), but I don't anymore.
+
+Regardless, thank you for the error/command parsing!
 
 # License
 Per ktraw2's [TVBot](https://github.com/ktraw2/TVBot) license, Counting Bot is under the GNU General Public License v3.0. Please view the license [here](./LICENSE).
