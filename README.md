@@ -16,16 +16,15 @@ The bot has 3 commands. All of these commands must be run by someone with the "M
   - You may also use `cont` or `c` to run this command.
 
 # How to run
-After cloning the repository and downloading [discord.py](https://discordpy.readthedocs.io/en/latest/intro.html#installing), rename `config_public.py` to `config.py` and add your private Discord bot token, 
-the bot's user id, and a channel id for logging. After that, run `python3 Counting Bot.py`.
+After cloning the repository and downloading [discord.py](https://discordpy.readthedocs.io/en/latest/intro.html#installing), rename `config_public.py` to `config.py` and add your private Discord bot token, the bot's user id, and a channel id for logging. After that, run `python3 Counting Bot.py`.
 
 You may need to run it as `python3 Counting\ Bot.py`,
 
 # Bugs
-If you notice any bugs, please make a ticket under the Issues tab. Or if you're super great, write your own fix and make a pull request. Please note that this bot was initially writen -- from start to finish -- in roughly 4 hours.
+If you notice any bugs, please make a ticket under the Issues tab. Or if you're super great, write your own fix and make a pull request. Please note that this bot was initially writen -- from start to finish -- in roughly 4 hours. The transition from 1.0 to 1.1 only took around 30 minutes.
 
 # Sources
-I used to use run-time command and error parsing from ktraw2's [TVBot](https://github.com/ktraw2/TVBot). I also used [discord.py's documentation](https://discordpy.readthedocs.io/en/latest/), but I don't anymore.
+I used to use run-time command and error parsing from ktraw2's [TVBot](https://github.com/ktraw2/TVBot). I also used [discord.py's documentation](https://discordpy.readthedocs.io/en/latest/), but I don't anymore due to rate limit issues.
 
 Regardless, thank you for the error/command parsing!
 
